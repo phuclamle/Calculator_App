@@ -5,7 +5,7 @@
     android:fitsSystemWindows="true"
     android:orientation="vertical">
 
-    <!-- Thanh tiêu đề -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,7 +26,7 @@
             android:textSize="35sp" />
     </LinearLayout>
 
-    <!-- Hiển thị kết quả -->
+
     <LinearLayout
         android:orientation="vertical"
         android:padding="16dp"
@@ -52,14 +52,14 @@
             android:textColor="#000" />
     </LinearLayout>
 
-    <!-- Các nút bấm -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="5dp">
 
-        <!-- Hàng 1 -->
+
         <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
             android:orientation="horizontal" android:weightSum="4">
 
@@ -80,7 +80,7 @@
                 android:padding="20dp" android:text="/" android:textSize="40sp" />
         </LinearLayout>
 
-        <!-- Hàng 2 -->
+
         <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
             android:orientation="horizontal" android:weightSum="4">
 
@@ -101,7 +101,7 @@
                 android:padding="20dp" android:text="x" android:textSize="40sp" />
         </LinearLayout>
 
-        <!-- Hàng 3 -->
+
         <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
             android:orientation="horizontal" android:weightSum="4">
 
@@ -122,7 +122,7 @@
                 android:padding="20dp" android:text="-" android:textSize="40sp" />
         </LinearLayout>
 
-        <!-- Hàng 4 -->
+
         <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
             android:orientation="horizontal" android:weightSum="4">
 
@@ -143,7 +143,7 @@
                 android:padding="20dp" android:text="+" android:textSize="40sp" />
         </LinearLayout>
 
-        <!-- Hàng 5 -->
+
         <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
             android:orientation="horizontal" android:weightSum="4">
 

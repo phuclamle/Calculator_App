@@ -1,14 +1,9 @@
 package com.example.myapplication
-import android.util.Log
-import android.graphics.Color
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import kotlin.random.Random
+
 
 class calculator_app  : AppCompatActivity() {
     private lateinit var expressionText: TextView
